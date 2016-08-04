@@ -1,0 +1,39 @@
+
+#map {
+	height: 700px; 
+	width: 100%;
+}
+
+.mag-label {
+	fill: white;
+	stroke-width: 1px;
+	stroke-color:black;
+	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900;
+}
+
+.circle-tooltip {
+	pointer-events:none;
+	fill: white;
+	fill-opacity:0;
+	stroke-width: 1px;
+	stroke:white;
+	stroke-opacity:1;
+}
+
+.main-circle {
+	stroke-width: 1px;
+	stroke:gray;
+	stroke-opacity:0.2;
+}
+
+.tooltip-text {
+	pointer-events:none;
+	fill: white;
+	font-size: 12px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900;
+	text-anchor:middle;
+	alignment-baseline:middle;
+}
