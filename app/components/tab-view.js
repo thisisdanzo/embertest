@@ -528,7 +528,7 @@ var tooltipCircle = featureData
 	    // var H = power * 0.4; // Hue (note 0.4 = Green, see huge chart below), 0.0 is Red
 	    // var S = 0.9; // Saturation
 	    // var B = 0.9; // Brightness
-	    var hslColor = Color().fromHsl(hsl);
+	    var hslColor = Color().fromHsl(hsl); ///
 	    return hslColor.toString();
 	}
 
